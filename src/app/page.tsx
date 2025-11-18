@@ -32,11 +32,11 @@ export default function ComingSoonPage(){
           </svg>
         </div>
 
-        <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <section className="space-y-6">
+        
+          <section className="text-center md:text-left">
             <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">We&rsquo;re launching soon</h1>
-            <p className="text-slate-200 max-w-prose">We are building something awesome. Sign up to get notified when we go live — sneak peeks and early access included.</p>
-
+            <p className="mt-4 text-lg text-slate-300"> Contact Us : info@jupitericemaster.com, MOBILE NO: 7015196529</p>
+          
             {/* <div className="mt-4 flex flex-wrap items-center gap-3">
               <div className="flex items-center gap-3">
                 <div className="text-center">
@@ -84,26 +84,11 @@ export default function ComingSoonPage(){
               </p>
             </form> */}
 
-            <div className="mt-6 flex items-center gap-4">
-              <a href="#" aria-label="Twitter" className="hover:underline text-slate-200 text-sm">Twitter</a>
-              <a href="#" aria-label="LinkedIn" className="hover:underline text-slate-200 text-sm">LinkedIn</a>
-              <a href="#" aria-label="Dribbble" className="hover:underline text-slate-200 text-sm">Dribbble</a>
-            </div>
+            
           </section>
 
-          <aside className="order-first md:order-last flex items-center justify-center">
-            <div className="w-full max-w-sm rounded-xl p-6 bg-gradient-to-b from-white/3 to-white/6 border border-white/6">
-              <h3 className="text-lg font-semibold mb-3">What to expect</h3>
-              <ul className="text-sm text-slate-200 space-y-2 list-inside list-disc">
-                <li>Early access for subscribers</li>
-                <li>Product updates & behind-the-scenes</li>
-                <li>Exclusive launch discounts</li>
-              </ul>
-              {/* <div className="mt-4 text-xs text-slate-300">Estimated launch date:</div>
-              <div className="font-medium mt-1">{launchDate.toDateString()}</div> */}
-            </div>
-          </aside>
-        </div>
+         
+       
 
         {/* subtle bottom stripe */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-11/12 h-1 rounded-full bg-white/5 blur-[1px]" />
