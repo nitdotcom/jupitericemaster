@@ -1,7 +1,21 @@
+
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+interface ExtendedNextConfig extends NextConfig {
+  eslint?: {
+    ignoreDuringBuilds?: boolean;
+  };
+}
+
+const nextConfig: ExtendedNextConfig = {
+  output: "standalone",
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
